@@ -1,4 +1,4 @@
-TUKI TRADUCTOR 4.1 — CREADO POR JOEL
+TUKI TRADUCTOR 4.1.1 — CREADO POR JOEL
 ===================================
 
 PARA EMPEZAR
@@ -27,11 +27,12 @@ El texto que ya está en Mi idioma no genera una traducción innecesaria.
 Las burbujas utilizan modelos locales y no necesitan internet tras la descarga.
 
 ESCRIBIR CON LIVE
-F8 activa o desactiva Live. Cuando Live está activo en un chat reconocido,
-Enter traduce el borrador, lo reemplaza y LO ENVÍA. Este es el comportamiento
-actual: no hay una segunda pulsación de confirmación.
+F8 activa o desactiva Live. Se mantiene activo entre mensajes, chats y aplicaciones.
+En un campo editable compatible, Enter traduce el borrador, lo reemplaza y
+ejecuta Enter: en un chat puede ENVIAR el mensaje; en un editor puede crear una
+línea. No hay una segunda pulsación de confirmación.
 Shift+Enter conserva el salto de línea. Shift+F8 traduce una vez.
-F7 permite traducir una selección de forma manual en los chats reconocidos.
+F7 permite traducir una selección de forma manual en aplicaciones compatibles.
 F9 muestra u oculta el panel. La X cierra Tuki y sus detectores.
 
 PRIVACIDAD Y LÍMITES
@@ -45,8 +46,9 @@ restaurar su contenido. Si contiene formatos no compatibles, la captura puede
 omitirse para no perderlos. No se guardan mensajes en los registros de diagnóstico.
 
 No se garantiza compatibilidad con cualquier chat, PDF, juego, terminal o página.
-El texto dentro de una imagen no se reconoce por OCR. Live conserva una lista
-de chats conocidos; no intercepta Enter universalmente en todos los formularios.
+El texto dentro de una imagen no se reconoce por OCR. Live no usa listas de
+aplicaciones ni títulos: necesita un editor enfocado que Windows permita leer
+y modificar. Excluye campos protegidos y de solo lectura.
 La detección de idioma puede equivocarse en frases muy cortas.
 
 SI ALGO FALLA
@@ -96,3 +98,4 @@ Ethereum (ETH) — Red: Ethereum
 0xb595b7fad94133e6c170c18339fe98cb813dce24
 
 Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.
+
