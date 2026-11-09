@@ -24,7 +24,9 @@ El panel permite configurar el inicio con Windows. La X cierra el programa y sus
 
 Las burbujas usan modelos locales después de descargarlos. Live, las traducciones manuales y la prueba del panel envían texto a servicios externos: no uses estas funciones con información que no quieras compartir. Los campos identificados como contraseñas se excluyen, aunque algunas aplicaciones no los identifican. La captura puede utilizar temporalmente el portapapeles e intenta restaurarlo.
 
-El ejecutable todavía no tiene firma digital y no se ha probado en una PC independiente limpia. No desactives el antivirus. Comprueba las sumas de [SHA256SUMS.txt](SHA256SUMS.txt) y consulta la guía si aparece un error.
+Joel confirmó el 9 de noviembre de 2026 una prueba satisfactoria en otro ordenador con Windows 10 22H2, incluyendo F8 Live y la burbuja al seleccionar texto. Es una prueba reportada por el autor; no garantiza compatibilidad con todos los equipos o aplicaciones.
+
+El ejecutable todavía no tiene firma digital. No desactives el antivirus. Comprueba las sumas de [SHA256SUMS.txt](SHA256SUMS.txt) y consulta la guía si aparece un error.
 
 ## Informar de un problema
 
