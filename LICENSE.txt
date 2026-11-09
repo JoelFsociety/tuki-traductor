@@ -1,0 +1,23 @@
+TUKI TRADUCTOR — LICENCIA DE USO GRATUITO
+Copyright (c) 2026 Joel. Todos los derechos reservados.
+
+Joel permite descargar y usar gratuitamente Tuki Traductor, tanto para uso
+personal como profesional. No se concede acceso ni licencia sobre el código
+fuente privado de Joel.
+
+Sin autorización escrita de Joel, no se permite modificar ni distribuir versiones
+modificadas del programa, revenderlo, cobrar por su distribución o presentarlo
+como una creación propia. Puedes compartir el enlace de descarga publicado por
+Joel. Deben conservarse los créditos y avisos incluidos.
+
+Estas condiciones se aplican únicamente al trabajo original de Joel. Las
+bibliotecas, los modelos de traducción y los demás componentes de terceros
+conservan sus propias licencias y permisos, indicados en los avisos adjuntos.
+Nada en esta licencia limita los derechos que la ley aplicable no permita excluir.
+
+El programa se ofrece tal como está, sin garantía de exactitud de las traducciones,
+disponibilidad de servicios externos o compatibilidad con todas las aplicaciones.
+Revisa los textos antes de enviarlos. En la medida permitida por la ley aplicable,
+Joel no responde por daños derivados del uso del programa.
+
+Tuki Traductor no está afiliado a Discord, WhatsApp, Microsoft ni Google.

@@ -1,0 +1,98 @@
+TUKI TRADUCTOR 4.1 — CREADO POR JOEL
+===================================
+
+PARA EMPEZAR
+1. Descarga el ZIP de Windows de la sección Releases del proyecto oficial.
+2. Extrae el ZIP en una carpeta. No abras el ejecutable dentro del ZIP.
+3. Abre TukiTraductor.exe. No necesitas instalar Python ni usar una terminal.
+4. En el primer inicio, deja que termine la descarga de los idiomas. Necesitas
+   internet y se recomienda tener 2 GB libres. Son aproximadamente 435 MB de
+   descarga, más el espacio necesario para los modelos descomprimidos.
+5. Al terminar verás a Tuki. Haz clic en la mascota para abrir el panel.
+
+Windows 10/11 de 64 bits. Este paquete es para procesadores x64; no incluye
+una versión nativa ARM ni versiones de macOS o Linux.
+
+IDIOMAS
+En el panel, elige Mi idioma (para leer las burbujas) y Escribir en (para traducir
+lo que redactas). Incluye español, inglés, portugués y chino simplificado.
+Las preferencias se conservan al cerrar. Algunas traducciones locales pasan por
+inglés como idioma intermedio, lo que puede afectar su naturalidad.
+
+SELECCIONAR PARA ENTENDER
+Selecciona texto con el mouse y suéltalo. Si la aplicación permite leer esa
+selección y el idioma se reconoce, aparece una burbuja en Mi idioma.
+Funciona en varios monitores, incluidos monitores colocados arriba o a la izquierda.
+El texto que ya está en Mi idioma no genera una traducción innecesaria.
+Las burbujas utilizan modelos locales y no necesitan internet tras la descarga.
+
+ESCRIBIR CON LIVE
+F8 activa o desactiva Live. Cuando Live está activo en un chat reconocido,
+Enter traduce el borrador, lo reemplaza y LO ENVÍA. Este es el comportamiento
+actual: no hay una segunda pulsación de confirmación.
+Shift+Enter conserva el salto de línea. Shift+F8 traduce una vez.
+F7 permite traducir una selección de forma manual en los chats reconocidos.
+F9 muestra u oculta el panel. La X cierra Tuki y sus detectores.
+
+PRIVACIDAD Y LÍMITES
+Live, la traducción manual y la prueba del panel utilizan servicios de traducción
+por internet (Google, MyMemory o Lingva): el texto traducido se envía al proveedor
+utilizado. No uses esas funciones con información que no quieras compartir.
+Las burbujas automáticas se procesan localmente. Los campos que Windows identifica
+como contraseñas se excluyen. Algunas aplicaciones no exponen esa información.
+La captura y sustitución pueden usar temporalmente el portapapeles, intentando
+restaurar su contenido. Si contiene formatos no compatibles, la captura puede
+omitirse para no perderlos. No se guardan mensajes en los registros de diagnóstico.
+
+No se garantiza compatibilidad con cualquier chat, PDF, juego, terminal o página.
+El texto dentro de una imagen no se reconoce por OCR. Live conserva una lista
+de chats conocidos; no intercepta Enter universalmente en todos los formularios.
+La detección de idioma puede equivocarse en frases muy cortas.
+
+SI ALGO FALLA
+- Descarga incompleta: revisa internet y espacio libre; pulsa Reintentar. Los
+  idiomas ya completos no se descargan otra vez.
+- No aparece la burbuja: selecciona una frase completa en otro idioma, espera
+  sin cambiar de ventana y comprueba la casilla de selección automática.
+- Si una aplicación se ejecuta como administrador y Tuki no, Windows puede
+  impedir la interacción. No es necesario ejecutar Tuki como administrador
+  para chats normales.
+- Una advertencia de editor desconocido puede aparecer porque esta versión no
+  tiene firma digital. No desactives el antivirus; verifica la procedencia y la
+  suma SHA256 de la descarga. Una firma digital es una tarea de publicación futura.
+- Si aparece un error de biblioteca o el programa no inicia, registra el mensaje,
+  la versión de Windows y la versión de Tuki para informar a Joel. No envíes
+  conversaciones privadas, contraseñas ni el contenido de tu portapapeles.
+
+ARCHIVOS Y DESINSTALACIÓN
+Los datos se guardan en %LOCALAPPDATA%\TukiTraductor:
+models (idiomas), preferencias.json y, solo si se habilita, seleccion.log.
+Para desinstalar, cierra Tuki y elimina la carpeta extraída del programa.
+Si también quieres borrar idiomas y preferencias, elimina esa carpeta de datos.
+Tuki activa el inicio automático para el usuario actual tras la preparación.
+Guarda una copia estable en %LOCALAPPDATA%\TukiTraductor\app\TukiTraductor.exe.
+Puedes desactivarlo en el panel: Iniciar Tuki al entrar a Windows.
+Antes de desinstalar, desmarca esa opción para retirar su entrada de inicio.
+No instala extensiones ni necesita permisos de administrador.
+
+CRÉDITOS
+Creado por Joel. Copyright (c) 2026 Joel. Todos los derechos reservados.
+Uso gratuito; modificación y reventa del trabajo de Joel no autorizadas.
+Consulta LICENSE.txt y THIRD_PARTY_LICENSES.txt para los componentes de terceros.
+
+APOYA A TUKI
+Creado por Joel. El apoyo es voluntario; Tuki sigue siendo gratuito.
+
+Bitcoin (BTC) — Red: Bitcoin
+1NusQGdBew3567Di7Cteffh9jXrhi5EDi4
+
+USDT — Red: Tron (TRC20)
+TCJtMvbD71FQLUoZCnVWM56CVeFVdaMin1
+
+Solana (SOL) — Red: Solana
+CZvY8mr4RW8jfGXeKzQj2AsidPtFuBV5kvMtnRq4nvTJ
+
+Ethereum (ETH) — Red: Ethereum
+0xb595b7fad94133e6c170c18339fe98cb813dce24
+
+Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.

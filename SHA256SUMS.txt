@@ -1,0 +1,2 @@
+390b1ba272638b593bdd5cdf919c4ff8cc30c7e00f021c219fdc77ae07f883ec  TukiTraductor-4.1.0-Windows-x64.zip
+a67eb79ebc1399c04db5066dc035d41a04e42096279fb4d336b4d97e380d7377  TukiTraductor.exe
