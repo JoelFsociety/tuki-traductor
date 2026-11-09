@@ -2,9 +2,9 @@
 
 **Creado por Joel.** Traductor para Windows 10/11 x64.
 
-Descarga **TukiTraductor-4.1.0-Windows-x64.zip** desde [Releases](https://github.com/JoelFsociety/tuki-traductor/releases), extrae todos los archivos y abre **TukiTraductor.exe**. No necesitas Python. La primera ejecución descarga los idiomas (aproximadamente 435 MB; se recomiendan 2 GB libres).
+Descarga **TukiTraductor-4.1.1-Windows-x64.zip** desde [Releases](https://github.com/JoelFsociety/tuki-traductor/releases), extrae todos los archivos y abre **TukiTraductor.exe**. No necesitas Python. La primera ejecución descarga los idiomas (aproximadamente 435 MB; se recomiendan 2 GB libres).
 
-Incluye español, inglés, portugués y chino simplificado. Lee [GUIA.txt](GUIA.txt): con Live activo, Enter traduce y envía en los chats reconocidos.
+Incluye español, inglés, portugués y chino simplificado. Lee [GUIA.txt](GUIA.txt): con Live activo, Enter traduce y ejecuta la acción del campo (puede enviar el mensaje).
 
 Uso gratuito; código fuente privado. Modificación y reventa no autorizadas. Consulta [LICENSE.txt](LICENSE.txt). Los terceros conservan sus propias licencias.
 
@@ -15,7 +15,7 @@ Las burbujas se traducen localmente; Live y traducciones manuales usan servicios
 1. Haz clic en Tuki para abrir el panel.
 2. Elige **Mi idioma** y **Escribir en**.
 3. Selecciona una frase en otro idioma y suelta el mouse. En aplicaciones compatibles aparece una burbuja traducida cerca del texto.
-4. Pulsa **F8** para activar o desactivar Live. **Enter traduce, reemplaza y envía el borrador en un chat reconocido.** No hay una segunda confirmación.
+4. Pulsa **F8** para activar o desactivar Live. **Enter traduce, reemplaza y ejecuta Enter en el campo compatible; en un chat puede enviar el mensaje.** No hay una segunda confirmación.
 5. **Shift+Enter** inserta un salto de línea; **Shift+F8** traduce una vez; **F7** traduce una selección manualmente; **F9** muestra u oculta el panel.
 
 El panel permite configurar el inicio con Windows. La X cierra el programa y sus detectores. Se admiten varios monitores; no se reconoce texto dentro de imágenes.
@@ -44,3 +44,17 @@ El apoyo es voluntario; el programa sigue siendo gratuito.
 | ETH | Ethereum | `0xb595b7fad94133e6c170c18339fe98cb813dce24` |
 
 Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.
+
+
+## Cambios de la versión 4.1.1
+
+- F8 permanece activo entre mensajes y al cambiar de chat o aplicación.
+- Detección por campo editable enfocado, sin listas de títulos o aplicaciones.
+- Mejor reconocimiento de editores interiores WebView2, incluido WhatsApp de escritorio.
+- Menos esperas durante la captura y menos búsquedas de controles cuando el foco ya es válido.
+- Se detiene el envío si no se completa el reemplazo o cambia el editor.
+
+Joel confirmó varios mensajes consecutivos sin reactivar F8 en WhatsApp de escritorio en la segunda pantalla, con menor demora. También confirmó el funcionamiento en Eldorado. Pasaron 19 pruebas automáticas. Estas comprobaciones no garantizan compatibilidad con todos los editores.
+
+Para actualizar: cierra Tuki con la X, extrae el ZIP nuevo y abre el ejecutable. Los modelos y preferencias se conservan en tu perfil de Windows.
+
