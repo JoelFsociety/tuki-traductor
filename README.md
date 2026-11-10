@@ -10,6 +10,12 @@ Uso gratuito; código fuente privado. Modificación y reventa no autorizadas. Co
 
 Las burbujas se traducen localmente; Live y traducciones manuales usan servicios externos. No se garantiza compatibilidad con todas las aplicaciones.
 
+## Video: cómo descargar y usar Tuki
+
+[**Ver o descargar el tutorial en Full HD · 54 segundos (MP4)**](https://github.com/JoelFsociety/tuki-traductor/releases/download/v4.1.2/Tuki-tutorial-estilo-claro-1080p.mp4)
+
+Descarga, apertura, idiomas, F8 Live y traducción al seleccionar texto. La grabación muestra la versión 4.1.1; descarga siempre la versión más reciente de Releases.
+
 ## Cómo usar Tuki
 
 1. Haz clic en Tuki para abrir el panel.
