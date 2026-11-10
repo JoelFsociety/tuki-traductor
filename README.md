@@ -2,7 +2,7 @@
 
 **Creado por Joel.** Traductor para Windows 10/11 x64.
 
-Descarga **TukiTraductor-4.1.1-Windows-x64.zip** desde [Releases](https://github.com/JoelFsociety/tuki-traductor/releases), extrae todos los archivos y abre **TukiTraductor.exe**. No necesitas Python. La primera ejecución descarga los idiomas (aproximadamente 435 MB; se recomiendan 2 GB libres).
+Descarga **TukiTraductor-4.1.2-Windows-x64.zip** desde [Releases](https://github.com/JoelFsociety/tuki-traductor/releases), extrae todos los archivos y abre **TukiTraductor.exe**. No necesitas Python. La primera ejecución descarga los idiomas (aproximadamente 435 MB; se recomiendan 2 GB libres).
 
 Incluye español, inglés, portugués y chino simplificado. Lee [GUIA.txt](GUIA.txt): con Live activo, Enter traduce y ejecuta la acción del campo (puede enviar el mensaje).
 
@@ -46,6 +46,14 @@ El apoyo es voluntario; el programa sigue siendo gratuito.
 Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.
 
 
+## Cambios de la versión 4.1.2
+
+- Corregida la detección de frases cortas en las burbujas: mensajes como «good good and you» o «it is good» ya no se descartan por confundirse con otros idiomas.
+- Se comprueban varias palabras antes de decidir el idioma; no se asume que todo texto desconocido es inglés.
+- El diagnóstico local indica el idioma detectado sin guardar el mensaje.
+
+Joel confirmó la corrección con el ejecutable de prueba. Pasaron 22 pruebas automáticas, incluida una secuencia de selecciones consecutivas, y se comprobaron los seis modelos del ejecutable. La detección automática puede equivocarse y la compatibilidad depende de cada aplicación.
+
 ## Cambios de la versión 4.1.1
 
 - F8 permanece activo entre mensajes y al cambiar de chat o aplicación.
@@ -57,4 +65,3 @@ Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no real
 Joel confirmó varios mensajes consecutivos sin reactivar F8 en WhatsApp de escritorio en la segunda pantalla, con menor demora. También confirmó el funcionamiento en Eldorado. Pasaron 19 pruebas automáticas. Estas comprobaciones no garantizan compatibilidad con todos los editores.
 
 Para actualizar: cierra Tuki con la X, extrae el ZIP nuevo y abre el ejecutable. Los modelos y preferencias se conservan en tu perfil de Windows.
-
