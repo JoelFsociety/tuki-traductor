@@ -1,42 +1,57 @@
 # Tuki Traductor
 
-**Creado por Joel.** Traductor para Windows 10/11 x64.
+**Tu agente para traducir al escribir y al seleccionar texto.** Creado por **Joel**.
 
-Descarga **TukiTraductor-4.1.2-Windows-x64.zip** desde [Releases](https://github.com/JoelFsociety/tuki-traductor/releases), extrae todos los archivos y abre **TukiTraductor.exe**. No necesitas Python. La primera ejecución descarga los idiomas (aproximadamente 435 MB; se recomiendan 2 GB libres).
+Gratis para **Windows 10/11 de 64 bits (x64)**. Incluye español, inglés, portugués y chino simplificado.
 
-Incluye español, inglés, portugués y chino simplificado. Lee [GUIA.txt](GUIA.txt): con Live activo, Enter traduce y ejecuta la acción del campo (puede enviar el mensaje).
+**[Descargar Tuki para Windows](https://github.com/JoelFsociety/tuki-traductor/releases/latest)** · [Guía completa](GUIA.txt) · [Informar de un problema](https://github.com/JoelFsociety/tuki-traductor/issues)
 
-Uso gratuito; código fuente privado. Modificación y reventa no autorizadas. Consulta [LICENSE.txt](LICENSE.txt). Los terceros conservan sus propias licencias.
+## Mira cómo funciona
 
-Las burbujas se traducen localmente; Live y traducciones manuales usan servicios externos. No se garantiza compatibilidad con todas las aplicaciones.
+Tutorial de 54 segundos: descarga, apertura, idiomas, F8 y burbujas de traducción.
 
-## Video: cómo descargar y usar Tuki
+https://github.com/user-attachments/assets/4bb9ffc4-1d43-429f-b2b1-ed2087ff557f
 
-[**Ver o descargar el tutorial en Full HD · 54 segundos (MP4)**](https://github.com/JoelFsociety/tuki-traductor/releases/download/v4.1.2/Tuki-tutorial-estilo-claro-1080p.mp4)
+*La grabación muestra la versión 4.1.1. Descarga siempre la versión más reciente.*
 
-Descarga, apertura, idiomas, F8 Live y traducción al seleccionar texto. La grabación muestra la versión 4.1.1; descarga siempre la versión más reciente de Releases.
+## Empieza en tres pasos
 
-## Cómo usar Tuki
+1. Abre **[Releases](https://github.com/JoelFsociety/tuki-traductor/releases/latest)** y descarga el archivo **TukiTraductor-…-Windows-x64.zip**.
+2. **Extrae todos los archivos** y abre **TukiTraductor.exe**. No necesitas instalar Python.
+3. Espera la descarga inicial de los idiomas. Después, haz clic en Tuki y elige **Mi idioma** para leer y **Escribir en** para redactar.
 
-1. Haz clic en Tuki para abrir el panel.
-2. Elige **Mi idioma** y **Escribir en**.
-3. Selecciona una frase en otro idioma y suelta el mouse. En aplicaciones compatibles aparece una burbuja traducida cerca del texto.
-4. Pulsa **F8** para activar o desactivar Live. **Enter traduce, reemplaza y ejecuta Enter en el campo compatible; en un chat puede enviar el mensaje.** No hay una segunda confirmación.
-5. **Shift+Enter** inserta un salto de línea; **Shift+F8** traduce una vez; **F7** traduce una selección manualmente; **F9** muestra u oculta el panel.
+La primera descarga de idiomas necesita internet y ocupa aproximadamente 435 MB. Se recomienda tener 2 GB libres. Los modelos y preferencias se conservan al actualizar.
 
-El panel permite configurar el inicio con Windows. La X cierra el programa y sus detectores. Se admiten varios monitores; no se reconoce texto dentro de imágenes.
+## Usa Tuki
 
-## Privacidad y estado de esta versión
+**Para entender un mensaje:** selecciona el texto con el mouse y suéltalo. En aplicaciones compatibles aparece una burbuja traducida cerca del mensaje.
 
-Las burbujas usan modelos locales después de descargarlos. Live, las traducciones manuales y la prueba del panel envían texto a servicios externos: no uses estas funciones con información que no quieras compartir. Los campos identificados como contraseñas se excluyen, aunque algunas aplicaciones no los identifican. La captura puede utilizar temporalmente el portapapeles e intenta restaurarlo.
+**Para escribir en otro idioma:** activa Live con **F8**, redacta y pulsa **Enter**. **Enter traduce, reemplaza y ejecuta la acción del campo: en un chat puede enviar el mensaje. No hay una segunda confirmación.**
 
-Joel confirmó el 9 de noviembre de 2026 una prueba satisfactoria en otro ordenador con Windows 10 22H2, incluyendo F8 Live y la burbuja al seleccionar texto. Es una prueba reportada por el autor; no garantiza compatibilidad con todos los equipos o aplicaciones.
+| Control | Acción |
+| --- | --- |
+| F8 | Activar o desactivar Live |
+| Shift + Enter | Insertar un salto de línea |
+| Shift + F8 | Traducir una vez |
+| F7 | Traducir una selección manualmente |
+| F9 | Mostrar u ocultar el panel |
+| Clic en Tuki | Abrir el panel |
+| X del panel | Cerrar el programa y sus detectores |
 
-El ejecutable todavía no tiene firma digital. No desactives el antivirus. Comprueba las sumas de [SHA256SUMS.txt](SHA256SUMS.txt) y consulta la guía si aparece un error.
+Puedes configurar el inicio con Windows desde el panel. Se admiten varios monitores.
 
-## Informar de un problema
+## Privacidad y compatibilidad
 
-Abre un [issue](https://github.com/JoelFsociety/tuki-traductor/issues) con la versión de Windows, la aplicación afectada, la versión de Tuki y los pasos para reproducirlo. No publiques conversaciones privadas, contraseñas ni el contenido de tu portapapeles.
+- **Burbujas automáticas:** traducción local después de descargar los modelos.
+- **Live, traducción manual y prueba del panel:** envían texto a servicios externos. Evita usarlos con información que no quieras compartir.
+- Se excluyen los campos identificados como contraseñas, aunque algunas aplicaciones no los identifican. La captura puede utilizar temporalmente el portapapeles e intenta restaurarlo.
+- La compatibilidad depende del editor y de la aplicación. No se reconoce texto dentro de imágenes y la detección de idioma puede equivocarse.
+
+El ejecutable todavía no tiene firma digital. No desactives el antivirus. Puedes comprobar la descarga con [SHA256SUMS.txt](SHA256SUMS.txt).
+
+## Ayuda
+
+Consulta la [guía completa](GUIA.txt). Para reportar un fallo, abre un [issue](https://github.com/JoelFsociety/tuki-traductor/issues) con tu versión de Windows, la aplicación afectada, la versión de Tuki y los pasos para reproducirlo. No incluyas mensajes privados ni contraseñas.
 
 ## Apoya a Tuki
 
@@ -50,3 +65,7 @@ El apoyo es voluntario; el programa sigue siendo gratuito.
 | ETH | Ethereum | `0xb595b7fad94133e6c170c18339fe98cb813dce24` |
 
 Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.
+
+## Créditos y licencia
+
+**Creado por Joel.** Uso gratuito; código fuente privado. Modificación y reventa no autorizadas: consulta [LICENSE.txt](LICENSE.txt). Las dependencias conservan sus [licencias de terceros](THIRD_PARTY_LICENSES.txt).
