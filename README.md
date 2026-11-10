@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JoelFsociety/tuki-traductor/main/assets/tuki-logo.png" alt="Tuki, tu agente traductor" width="180" height="180">
+</p>
+
 # Tuki Traductor
 
 **Tu agente para traducir al escribir y al seleccionar texto.** Creado por **Joel**.
