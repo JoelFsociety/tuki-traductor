@@ -50,24 +50,3 @@ El apoyo es voluntario; el programa sigue siendo gratuito.
 | ETH | Ethereum | `0xb595b7fad94133e6c170c18339fe98cb813dce24` |
 
 Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.
-
-
-## Cambios de la versión 4.1.2
-
-- Corregida la detección de frases cortas en las burbujas: mensajes como «good good and you» o «it is good» ya no se descartan por confundirse con otros idiomas.
-- Se comprueban varias palabras antes de decidir el idioma; no se asume que todo texto desconocido es inglés.
-- El diagnóstico local indica el idioma detectado sin guardar el mensaje.
-
-Joel confirmó la corrección con el ejecutable de prueba. Pasaron 22 pruebas automáticas, incluida una secuencia de selecciones consecutivas, y se comprobaron los seis modelos del ejecutable. La detección automática puede equivocarse y la compatibilidad depende de cada aplicación.
-
-## Cambios de la versión 4.1.1
-
-- F8 permanece activo entre mensajes y al cambiar de chat o aplicación.
-- Detección por campo editable enfocado, sin listas de títulos o aplicaciones.
-- Mejor reconocimiento de editores interiores WebView2, incluido WhatsApp de escritorio.
-- Menos esperas durante la captura y menos búsquedas de controles cuando el foco ya es válido.
-- Se detiene el envío si no se completa el reemplazo o cambia el editor.
-
-Joel confirmó varios mensajes consecutivos sin reactivar F8 en WhatsApp de escritorio en la segunda pantalla, con menor demora. También confirmó el funcionamiento en Eldorado. Pasaron 19 pruebas automáticas. Estas comprobaciones no garantizan compatibilidad con todos los editores.
-
-Para actualizar: cierra Tuki con la X, extrae el ZIP nuevo y abre el ejecutable. Los modelos y preferencias se conservan en tu perfil de Windows.
