@@ -1,4 +1,4 @@
-TUKI TRADUCTOR 4.1.1 — CREADO POR JOEL
+TUKI TRADUCTOR 4.1.2 — CREADO POR JOEL
 ===================================
 
 PARA EMPEZAR
@@ -98,4 +98,3 @@ Ethereum (ETH) — Red: Ethereum
 0xb595b7fad94133e6c170c18339fe98cb813dce24
 
 Usa la moneda y la red indicadas. Tuki solo muestra y copia direcciones; no realiza transferencias.
-
