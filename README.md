@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JoelFsociety/tuki-traductor/main/assets/tuki-logo.png" alt="Tuki, tu agente traductor" width="180" height="180">
+  <img src="https://raw.githubusercontent.com/JoelFsociety/tuki-traductor/362a16e7a8e706888f1d79b9bc9269e4d97e8b2c/assets/tuki-logo.png" alt="Tuki, tu agente traductor" width="180" height="180">
 </p>
 
 # Tuki Traductor
